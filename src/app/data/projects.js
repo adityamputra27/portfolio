@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "Warehouse Inventory System - Tania Perfume v2.0",
-    image: "",
+    image: "tania_warehouse_system.png",
     stack: [{}],
   },
 ];
