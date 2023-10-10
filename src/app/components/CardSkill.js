@@ -5,7 +5,7 @@ const CardSkill = (props) => {
 
   return (
     <div className="basis-1/6 flex-1">
-      <div className="max-w-sm bg-white text-center border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="max-w-sm bg-white text-center border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
         <Image
           className="rounded-lg mx-auto pb-5 pt-8"
           width={100}

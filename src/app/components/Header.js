@@ -2,7 +2,6 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillInstagram,
-  AiFillFacebook,
 } from "react-icons/ai";
 import profile from "../../../public/profile.png";
 import Image from "next/image";
@@ -15,11 +14,11 @@ const Header = () => {
           Aditya Muhamad Putra P.
         </h2>
         <h3 className="text-2xl py-3 text-gray-800  dark:text-white">
-          Software Developer, Flutter Developer and Freelancer
+          Frontend Engineer, Flutter Developer and Freelancer
         </h3>
         <p className="text-sm md:text-lg py-5 leading-6 text-gray-800 dark:text-gray-200 max-w-4xl mx-auto">
           Hello! my name is Aditya Muhamad Putra P., started programming since
-          18 years old. Now I am 21 years old and a 5th semester student at
+          17 years old. Now I am 21 years old and a 5th semester student at
           Putra Indonesia University. I have experienced with Laravel,
           Codeigniter, Vue, React, and Flutter, and also have good time
           management, and currently learning Dart and Next JS. Now I'm working
@@ -30,7 +29,6 @@ const Header = () => {
           <AiFillLinkedin />
           <AiFillInstagram />
           <AiFillTwitterCircle />
-          <AiFillFacebook />
         </div>
         <div className="mx-auto bg-gradient-to-b from-orange-600 rounded-full w-72 h-72 relative overflow-hidden mt-12 md:h-96 md:w-96">
           <Image src={profile} layout="fill" objectFit="cover" />

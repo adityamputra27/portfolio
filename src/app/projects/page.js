@@ -17,7 +17,7 @@ const Projects = () => {
       </div>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         <div className="basis-1/4 flex-1">
-          <div className="mx-auto max-w-md bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="mx-auto max-w-md bg-white border border-gray-200 rounded-xl shadow-lg dark:bg-gray-800 dark:border-gray-700">
             <Image
               className="rounded-lg object-cover"
               width={"100%"}
