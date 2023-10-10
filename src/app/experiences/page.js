@@ -17,7 +17,7 @@ const Experience = () => {
           placerat augue in, sagittis purus.
         </p>
       </div>
-      <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+      <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap text-center">
         {skills.map((skill) => (
           <CardSkill title={skill.title} image={skill.image} />
         ))}
