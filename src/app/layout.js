@@ -1,5 +1,3 @@
-"use client";
-
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -17,6 +15,10 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
+        <title>dittmptrr27 | Portfolio</title>
+        <meta name="description" content="Description" />
+      </head>
       <body className={inter.className}>
         <div className={darkMode ? "dark" : ""}>
           <main className="bg-white dark:bg-gray-900 md:px-20 lg:px-40">
